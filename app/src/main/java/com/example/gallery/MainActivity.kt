@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setContentView(R.layout.activity_main)
-        title = "KotlinApp"
+        title = "Gallery"
         imageView = findViewById(R.id.imageView)
         button = findViewById(R.id.buttonLoadPicture)
         button.setOnClickListener {
